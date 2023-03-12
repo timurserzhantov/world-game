@@ -122,4 +122,25 @@ body {
   .nav-link:nth-child(2) {
     margin: 0 !important;
   }
+  .btn-purple {
+    display: block;
+  }
+}
+@media (max-width: 420px) {
+  .first-card-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .gta-img {
+    margin-right: 0;
+    margin-bottom: 24px;
+  }
+  .fortnite-img {
+    margin: 0;
+  }
+  .hero-title {
+    font-size: 38px;
+  }
 }
