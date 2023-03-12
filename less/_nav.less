@@ -3,17 +3,18 @@
     box-sizing: border-box;
 }
 body {
-    background: #1B1C1F;
+    background-color: #1B1C1F;
 }
+@nav: #323335;
 .navigation {
-    background-color: #323335;
+    background-color: @nav;
     border-radius: 24px;
     width: 416px;
     justify-content: center;
 }
 @media (max-width: 991px) {
     .menu-bg {
-        background-color: #323335;
+        background-color: @nav;
     }
     .menu-btn {
         background-color: #fff;
