@@ -125,6 +125,23 @@ body {
   .btn-purple {
     display: block;
   }
+  .dota-box,
+  .fortnite-box,
+  .gta-box {
+    height: 100%;
+    background-image: none;
+  }
+  .img-mobile {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  .img-mobile img {
+    width: 450px;
+  }
 }
 @media (max-width: 420px) {
   .first-card-row {
@@ -151,6 +168,9 @@ body {
   }
   .footer-link:nth-child(2) {
     margin: 0;
+  }
+  .img-mobile img {
+    width: 350px;
   }
 }
 .footer-link:nth-child(2) {
